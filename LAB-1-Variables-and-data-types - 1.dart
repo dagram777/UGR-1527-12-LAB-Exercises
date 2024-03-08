@@ -1,3 +1,8 @@
+/* Exercise 1: Create variables to store your name, age, 
+and favorite color, and print them to the console using 
+string interpolation*/
+
+
 void main() {
   
   // Variable Declration
