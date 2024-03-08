@@ -3,9 +3,9 @@ void main() {
   Map<String, int> studentMarks = {};
 
   
-  studentMarks.putIfAbsent('Alice', () => 85);
-  studentMarks.putIfAbsent('Bob', () => 92);
-  studentMarks.putIfAbsent('Charlie', () => 78);
+  studentMarks.putIfAbsent('Abebe', () => 85);
+  studentMarks.putIfAbsent('Kebede', () => 92);
+  studentMarks.putIfAbsent('Bekele', () => 78);
 
 
   print('Student Marks:');
@@ -14,7 +14,7 @@ void main() {
   });
 
   
-  String searchName = 'Alice';
+  String searchName = 'Abebe';
   if (studentMarks.containsKey(searchName)) {
     print('$searchName\'s mark: ${studentMarks[searchName]}');
   } else {
